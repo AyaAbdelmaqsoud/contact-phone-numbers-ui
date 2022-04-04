@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+  }
+  
+  .div-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  
+  }
+  
+  
+  @media (max-width: 800px) {
+  
+    .div-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+}
